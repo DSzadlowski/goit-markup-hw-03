@@ -1,10 +1,9 @@
 :root {
   --color:#2196F3;
-  }
+}
 
 * { 
   box-sizing: border-box;
-  
 }
 
 .header {
@@ -25,7 +24,6 @@
 .nav {
   display: inline-block;
   justify-content: space-between; 
-
 }
 
 .box {
@@ -34,56 +32,81 @@
   font-weight: 900;
   color: #ffffff;
   text-align: center;
-    
-}
-
-.menu-item {
-  display: flex;
-  
 }
 
 .card-set {
   display: flex;
-  flex-direction: row;
   list-style: none;
   text-align: center;
   font-weight: 400;
   padding: 60px;
 }
 
-/*.item {
+.card {
+  display: row;
+  list-style: none;
+  padding: 60px;
+}
+
+.card li {
   display: inline-block;
-}*/
+  width: 120px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.card figcaption {
+  display: inline-block;
+  clear: both;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.box2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.box3 {
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.box4 {
+  background-color: #2F303A;
+  font-family: Raleway;
+  font-weight: 900;
+}
+
 
 button {
-  color: var(--main-color,#2196F3)
-  }
+  color: var(--main-color,#2196F3);
+}
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    color: rgb(51, 51, 51);
-    font-size: 16px;
-     }
-      
-    
-    a.contact-text {
-      color: var(--color);
-      transition: color 0.2s ease-in-out;
-    }
-    
-    a.contact-text:hover,
-    a.contact-text:focus {
-      color: var(--color);
-    }
-  
-  button,
-  a {
-    cursor: pointer;
-    background-color: rgba(245, 240, 240, 0.945);
-    color: black;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+}
+
+a.contact-text {
+  color: var(--color);
+  transition: color 0.2s ease-in-out;
+}
+
+a.contact-text:hover,
+a.contact-text:focus {
+  color: var(--color);
+}
+
+button,
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     }
 
   button:hover,
@@ -93,4 +116,3 @@ body {
     background-color:#2196F3;
     color: rgb(12, 12, 12);
     }
-
