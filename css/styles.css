@@ -55,12 +55,7 @@
   margin-right: 10px;
 }
 
-.card figcaption {
-  display: inline-block;
-  clear: both;
-  text-align: center;
-  margin-top: 0px;
-}
+
 .card-set2 {
   display: inline-block;
   list-style: none;
@@ -84,9 +79,10 @@
 
 .link {
   display: inline-block;
-  width: auto;
-  margin: 0 20px;
-  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 
