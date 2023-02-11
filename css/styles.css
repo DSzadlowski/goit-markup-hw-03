@@ -43,9 +43,11 @@
 }
 
 .card {
-  display: row;
+  display: inline-block;
   list-style: none;
-  padding: 60px;
+  justify-content: space-between;
+  padding: ;
+ 
 }
 
 .card li {
